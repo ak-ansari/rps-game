@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/rps.css" />
+   
+  </head>
+  <body>
+   
+    <div class="maincontainer" id="one">
+      <div class="heading-container">
+        <h1 class="text-primary">the game</h1>
+        <h2 class="text-danger">rock paper scissors</h2>
+      </div>
+      <div class="img-container" id="two">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyaER4CmUj_CfZlA9DxvvwfPhjVgWp09pVSg&usqp=CAU"
+          alt=""
+          id="rock"
+          width="150px"
+          height="150px"
+          onclick="rpsgame(this)"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcRjkvojGuC1xiNDuVej8KpNQig7ITjRIKbQ&usqp=CAU"
+          id="paper"
+          alt=""
+          width="150px"
+          height="150px"
+          onclick="rpsgame(this)"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgt79okKkNwVcFk0de-9zPavkOSZq8uLLy4w&usqp=CAU"
+          alt=""
+          id="seissors"
+          width="150px"
+          height="150px"
+          onclick="rpsgame(this)"
+        />
+      </div>
+      <div class="btn-container text-center align-items-center">
+         <button class="btn btn-primary mt-5 "> play again </button>
+      </div>
+     
+    </div>
+    <h1 style="font-size: 60px; padding: 30px; color: red"></h1>
+    <script src="/js/rps.js"></script>
+  </body> 
+</html>
